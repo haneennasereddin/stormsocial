@@ -239,7 +239,7 @@ h3{
     width: 80%;
     margin: auto;
     padding-top: 100px;
-    text-align: left;
+    text-align: center;
 }
 
 .testimonials-col{
@@ -313,7 +313,7 @@ h3{
 }
 
 .icons .fa{
-    color:red;
+    color:rgb(0, 0, 0);
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
