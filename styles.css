@@ -114,9 +114,9 @@ nav .fa{
     }
 }
 
-/* course */
+/*pricing */
 
-.course{
+.pricing{
     width: 80%;
     margin: auto;
     text-align: center;
@@ -138,7 +138,7 @@ p{
     display: flex;
     justify-content: space-between;
 }
-.course-col{
+.pricing-col{
     flex-basis: 31%;
     background: rgb(161, 125, 161);
     border-radius: 10px;
@@ -152,7 +152,7 @@ h3{
     font-weight: 600;
     margin: 10px 0;
 }
-.course-col:hover{
+.pricing-col:hover{
     box-shadow: 0 0 20px 0px rgb(107, 69, 69);
 }
 @media(max-width: 700px){
