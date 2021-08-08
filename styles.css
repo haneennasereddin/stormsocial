@@ -161,21 +161,21 @@ h3{
     }
 }
 
-/* campus */
-.campus{
+/* about */
+.about{
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
 }
-.campus-col{
+.about-col{
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
 }
-.campus-col img{
+.about-col img{
     width: 100%;
     display: block;
 }
@@ -207,28 +207,28 @@ h3{
     bottom: 49%;
     opacity: 1;
 }
-/* facilities */
+/* services */
 
-.facilities{
+.services{
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
 }
-.facilities-col{
+.services-col{
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
 }
-.facilities-col img{
+.services-col img{
     width: 100%;
     border-radius: 10px;
 }
-.facilities-col p{
+.services-col p{
     padding: 0;
 }
-.facilities-col h3{
+.services-col h3{
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: left;
