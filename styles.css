@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(155, 170, 229, 0.07),rgba(155, 170, 229, 0.07)), url(images/2\ copy.png);
+    background-image: linear-gradient(rgba(155, 170, 229, 0.07),rgba(155, 170, 229, 0.07)), url(images/index.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -54,9 +54,11 @@ nav img{
     left: 50%;
     transform: translate(-50%,-50% );
     text-align: center;
+    font-family: 'Josefin Slab', serif;
 }
 .text-box h1{
-    font-size: 62px;
+    font-size: 82px;
+    font-family: 'Josefin Slab', serif;
 }
 .text-box p{
     margin: 10px 0 40px;
@@ -75,8 +77,8 @@ nav img{
     cursor: pointer;
 }
 .hero-btn:hover{
-    border: 1px solid rgb(107, 69, 69);
-    background:rgb(107, 69,69);
+    border: 1px solid #000000;
+    background:rgb(185, 183, 183);
     transition: 1s;
 }
 nav .fa{
@@ -92,7 +94,7 @@ nav .fa{
     }
     .nav-links{
         position: fixed;
-        background: rgb(107, 69, 69);
+        background: rgb(180, 150, 150);
         height: 100vh;
         width: 200px;
         top: 0;
@@ -140,7 +142,7 @@ p{
 }
 .pricing-col{
     flex-basis: 31%;
-    background: rgb(161, 125, 161);
+    background: #c38888;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -153,7 +155,7 @@ h3{
     margin: 10px 0;
 }
 .pricing-col:hover{
-    box-shadow: 0 0 20px 0px rgb(107, 69, 69);
+    box-shadow: 0 0 20px 0px rgb(5, 4, 4);
 }
 @media(max-width: 700px){
     .row{
@@ -247,7 +249,7 @@ h3{
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    background: rgb(199, 55, 55);
+    background: #c38888;
     padding: 25px;
     cursor: pointer;
     display: flex ;
@@ -288,7 +290,7 @@ h3{
 }
 
 .cta h1{
-    color: rgb(141, 83, 83);
+    color: rgb(0, 0, 0);
     margin-bottom: 40px;
     padding: 0;
 }
@@ -327,11 +329,11 @@ h3{
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/Storm\ Social\ copy.png);
+    background-image: linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)), url(images/header5.png);
     background-position: center;
     background-size: cover;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .sub-header h1{
@@ -363,13 +365,13 @@ h3{
 }
 
 .about-btn{
-    border: 1px solid #bb2b2b;
+    border: 1px solid #030303;
     background: transparent;
-    color: #422b2b;
+    color: #000000;
 }
 
 .about-btn:hover{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 /* blog content */
@@ -497,4 +499,51 @@ h3{
     outline: none;
     border: 1px solid #ccc;
     box-sizing: border-box;
+}
+
+/*portfolio */
+
+.portfolio {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 35px;
+    font-weight: 600;
+}
+p{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio-col{
+    flex-basis: 31%;
+    background: rgb(161, 125, 161);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.portfolio-col:hover{
+    box-shadow: 0 0 20px 0px rgb(43, 170, 140);
+}
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
 }
