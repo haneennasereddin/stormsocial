@@ -18,13 +18,14 @@
     <section class="header">
         <nav>
             <a href="index.html"><img src="images/nologo.png"></a>
-            <div class="nav-links" id="nav-links">
+            <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">ABOUT</a></li>
                     <li><a href="pricing.html">PRICING</a></li>
                     <li><a href="blog.html">BLOG</a></li>
+
                     <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </div>
@@ -197,14 +198,14 @@
 
 <script>
 
-var navLinks = document.getElementById("navLinks");
+    var navLinks = document.getElementById("navLinks");
 
-function showMenu(){
-    navLinks.style.right = "0";
-}
-function hideMenu(){
-    navLinks.style.right = "-200px";
-}
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
 
 </script>
 
